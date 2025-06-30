@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
-    "pages:build": "pnpm gen:runtime && next build && next-sitemap --config next-sitemap.config.js && npx @cloudflare/next-on-pages --experimental-minify"
   },
   "author": "",
   "license": "ISC",
